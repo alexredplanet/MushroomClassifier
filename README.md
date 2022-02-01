@@ -9,5 +9,7 @@ This is because the data contains:
 - highly imbalanced classes
 
 The current version of the project uses simple deep learning models (ResNet variants) and the FastAI library. 
-One interesting idea i toyed with here was a hierarchical model, where a genus level classifier was first trained, 
-and then for each genus, a species level classifier was trained. I haven't uploaded the model files as they are very large, nor have I uploaded the image files. The notebooks will download all relevant data and generate all models. 
+One interesting idea I toyed with here was a hierarchical model, where a genus level classifier was first trained, 
+and then for each genus, a species level classifier was trained. I tried this as it would allow for new mushroom species to be gradually added to the model over time, with much faster retraining than a single species level model.
+
+I haven't uploaded the model files as they are very large, nor have I uploaded the image files. The notebooks will download all relevant data and generate all models. 
